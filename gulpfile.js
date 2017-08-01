@@ -20,7 +20,7 @@ gulp.task('style', function(){
 });
 
 gulp.task('webserver', function(){
-	gulp.src('../pinterest/')
+	gulp.src('../frontend-developer-challenge/')
 	.pipe(webserver({
 		fallback:'index.html',
 		livereload: true,
